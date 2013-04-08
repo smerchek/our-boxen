@@ -30,12 +30,23 @@ github "nvm",      "1.0.0"
 github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
+github "osx",      "1.0.0"
+github "pkgconfig", "1.0.0"
+github "pcre", "1.0.0"
+github "swig", "1.0.0"
 
 github "sublime_text_2", "1.1.0"
 github "chrome", "1.1.0"
 github "vlc", "1.0.0"
 github "wget", "1.0.0"
 github "dropbox", "1.1.0"
+github "intellij", "1.1.3"
+github "virtualbox", "1.0.2"
+github "zsh", "1.0.0"
+github "vim", "1.0.2"
+github "skype", "1.0.2"
+github "iterm2", "1.0.2"
+github "graphviz", "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
