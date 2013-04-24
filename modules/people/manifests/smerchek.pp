@@ -7,14 +7,18 @@ class people::smerchek {
   include skype 
   include virtualbox
   include graphviz
-  
+
   class { 'intellij':
     edition => 'community',
   }
 
-  include vim
-  vim::bundle { 'scrooloose/syntastic': }
+  # include vim
+  # vim::bundle { 'scrooloose/syntastic': }
 
-  include zsh
   include iterm2::stable
+
+  include vagrant
+  include sourcetree
+
+  include ynab
 }
