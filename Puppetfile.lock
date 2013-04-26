@@ -1,17 +1,3 @@
-GIT
-  remote: https://github.com/boxen/puppet-java
-  ref: master
-  sha: 5a41bb4134892ca87f15d1db430ff02b70e316b2
-  specs:
-    java (0.0.1)
-
-GIT
-  remote: https://github.com/boxen/puppet-solr
-  ref: master
-  sha: 6f811a36d4286dbab5f61fb0cff62377c7286ad3
-  specs:
-    solr (0.0.1)
-
 GITHUBTARBALL
   remote: boxen/puppet-bash
   specs:
@@ -36,6 +22,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-elasticsearch
+  specs:
+    elasticsearch (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -71,6 +62,11 @@ GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
     iterm2 (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -111,6 +107,11 @@ GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
     skype (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-solr
+  specs:
+    solr (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sourcetree
@@ -183,6 +184,7 @@ DEPENDENCIES
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
+  elasticsearch (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
   graphviz (= 1.0.0)
@@ -191,7 +193,7 @@ DEPENDENCIES
   inifile (= 0.9.0)
   intellij (= 1.1.3)
   iterm2 (= 1.0.2)
-  java (>= 0)
+  java (= 1.1.0)
   nginx (= 1.1.0)
   nodejs (= 2.1.0)
   nvm (= 1.0.0)
@@ -200,7 +202,7 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   ruby (= 3.1.0)
   skype (= 1.0.2)
-  solr (>= 0)
+  solr (= 1.0.0)
   sourcetree (= 0.0.2)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)
