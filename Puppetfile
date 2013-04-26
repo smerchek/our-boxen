@@ -51,6 +51,10 @@ github "vagrant", "2.0.6"
 github "sourcetree", "0.0.2"
 github "ynab", "1.0.0", :repo => "smerchek/puppet-ynab"
 github "bash", "1.1.0"
+mod "solr", :git => "https://github.com/boxen/puppet-solr"
+mod "java", :git => "https://github.com/boxen/puppet-java"
+#github "solr", "1.0.0"
+#github "java", "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

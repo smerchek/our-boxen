@@ -1,3 +1,17 @@
+GIT
+  remote: https://github.com/boxen/puppet-java
+  ref: master
+  sha: 5a41bb4134892ca87f15d1db430ff02b70e316b2
+  specs:
+    java (0.0.1)
+
+GIT
+  remote: https://github.com/boxen/puppet-solr
+  ref: master
+  sha: 6f811a36d4286dbab5f61fb0cff62377c7286ad3
+  specs:
+    solr (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-bash
   specs:
@@ -177,6 +191,7 @@ DEPENDENCIES
   inifile (= 0.9.0)
   intellij (= 1.1.3)
   iterm2 (= 1.0.2)
+  java (>= 0)
   nginx (= 1.1.0)
   nodejs (= 2.1.0)
   nvm (= 1.0.0)
@@ -185,6 +200,7 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   ruby (= 3.1.0)
   skype (= 1.0.2)
+  solr (>= 0)
   sourcetree (= 0.0.2)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)

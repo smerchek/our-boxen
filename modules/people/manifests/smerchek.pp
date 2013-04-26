@@ -21,4 +21,7 @@ class people::smerchek {
   include sourcetree
 
   include ynab
+
+  include java
+  include solr
 }
