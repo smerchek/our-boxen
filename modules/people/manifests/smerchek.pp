@@ -25,4 +25,6 @@ class people::smerchek {
   include java
   include solr
   include elasticsearch
+
+  package { 'scala': }
 }
