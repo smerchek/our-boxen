@@ -27,4 +27,5 @@ class people::smerchek {
   include elasticsearch
 
   package { 'scala': }
+  package { 'automake': }
 }
