@@ -12,9 +12,6 @@ class people::smerchek {
     edition => 'community',
   }
 
-  # include vim
-  # vim::bundle { 'scrooloose/syntastic': }
-
   include iterm2::stable
 
   include vagrant
@@ -27,5 +24,6 @@ class people::smerchek {
   include elasticsearch
 
   package { 'scala': }
-  package { 'automake': }
+
+  include oh-my-zsh
 }

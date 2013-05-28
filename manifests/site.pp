@@ -51,8 +51,9 @@ Homebrew::Formula <| |> -> Package <| |>
 node default {
   # core modules, needed for most things
   include dnsmasq
+  #package { 'git': ensure => absent }
   include git
-  include hub
+  #include hub
   include nginx
 
   # fail if FDE is not enabled
@@ -77,7 +78,9 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'automake',
+      'libtool'
     ]:
   }
 
